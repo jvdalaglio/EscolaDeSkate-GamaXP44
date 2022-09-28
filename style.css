@@ -1,0 +1,18 @@
+.highlight{
+    color: #00A4FF;
+}
+
+li {
+    list-style-type: none;
+    position:relative;
+    margin-bottom:0.5em;
+  }
+  .itemlista:before {
+    content: '•';
+    display: inline-block;
+    position: absolute;
+    left: -1em;
+    bottom: -0.1em;
+    color:#00A4FF;
+    font-size: x-large;
+  }
